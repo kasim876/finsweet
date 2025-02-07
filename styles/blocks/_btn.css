@@ -1,0 +1,48 @@
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 48px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--black);
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.btn--light {
+    background-color: var(--light);
+}
+
+.btn--yellow {
+    background-color: var(--yellow);
+}
+
+.btn--light:focus,
+.btn--yellow:focus {
+    outline: none;
+}
+
+.btn--light:focus-visible {
+    outline: 2px dashed var(--light);
+    outline-offset: 2px;
+}
+
+.btn--yellow:focus-visible {
+    outline: 2px dashed var(--yellow);
+    outline-offset: 2px;
+}
+
+@media (any-hover: hover) {
+    .btn--light:hover {
+        background-color: #ccc6c6;
+    }
+
+    .btn--yellow:hover {
+        background-color: #dfb43d;
+    }
+}
