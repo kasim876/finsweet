@@ -1,0 +1,28 @@
+.meta {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--dark-grey);
+}
+
+.meta__author {
+    position: relative;
+    margin-right: 18px;
+}
+
+.meta__author::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: -10px;
+    display: block;
+    width: 2px;
+    background-color: currentColor;
+}
+
+.meta__author-name {
+    color: var(--purple);
+}
