@@ -1,0 +1,32 @@
+.text {
+    margin: 0;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.text--center {
+    text-align: center;
+}
+
+.text--light {
+    color: var(--light);
+}
+
+.text--grey {
+    color: var(--medium-grey);
+}
+
+.text--small {
+    font-size: 14px;
+    line-height: 143%;
+}
+
+.text--medium {
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.text--large {
+    font-size: 24px;
+    line-height: 133%;
+}
