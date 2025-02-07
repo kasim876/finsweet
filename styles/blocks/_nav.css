@@ -1,0 +1,28 @@
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav__link {
+    border-bottom: 2px dashed transparent;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: var(--light);
+    transition: border-color 0.25s ease-in-out;
+}
+
+.nav__link:focus {
+    outline: none;
+}
+
+.nav__link:focus-visible {
+    border-bottom-color: currentColor;
+}
+
+@media (any-hover: hover) {
+    .nav__link:hover {
+        border-bottom-color: currentColor;
+    }
+}
