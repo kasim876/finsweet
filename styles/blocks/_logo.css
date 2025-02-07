@@ -1,0 +1,14 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo:focus {
+    outline: none;
+}
+
+.logo:focus-visible {
+    outline: 2px dashed var(--light);
+    outline-offset: 2px;
+}
