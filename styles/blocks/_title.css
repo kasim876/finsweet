@@ -1,0 +1,32 @@
+.title {
+    margin: 0;
+    font-family: var(--second-family);
+    font-weight: 700;
+    color: var(--black);
+}
+
+.title--light {
+    color: var(--light);
+}
+
+.title--center {
+    text-align: center;
+}
+
+.title--small {
+    font-size: 28px;
+    line-height: 143%;
+    letter-spacing: -0.04em;
+}
+
+.title--medium {
+    font-size: 36px;
+    line-height: 133%;
+    letter-spacing: -0.06em;
+}
+
+.title--large {
+    font-size: 48px;
+    line-height: 133%;
+    letter-spacing: -0.04em;
+}
