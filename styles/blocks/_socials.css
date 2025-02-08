@@ -1,0 +1,26 @@
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.socials__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    color: var(--black);
+    fill: currentColor;
+    transition: color 0.25s ease-in-out;
+}
+
+.socials--grey .socials__link {
+    color: var(--medium-grey);
+}
+
+@media (any-hover: hover) {
+    .socials__link:hover {
+        color: var(--yellow);
+    }
+}
