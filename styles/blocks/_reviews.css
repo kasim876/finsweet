@@ -1,0 +1,36 @@
+.reviews {
+    padding: 60px 0;
+}
+
+.reviews__content {
+    display: flex;
+    padding: 80px 100px;
+    background-color: var(--light-yellow);
+}
+
+.reviews__left {
+    position: relative;
+    margin-right: 100px;
+    padding-right: 100px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.reviews__left::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 2px;
+    background-color: rgba(109, 110, 118, 0.4);
+}
+
+.reviews__caption {
+    margin-bottom: 12px;
+}
+
+.reviews__title {
+    margin-bottom: 16px;
+}
