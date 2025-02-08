@@ -106,3 +106,21 @@ input[type="number"]::-webkit-outer-spin-button {
     outline: 2px dashed currentColor;
     outline-offset: 2px;
 }
+
+.link {
+    border-bottom: 2px dashed transparent;
+}
+
+.link:focus {
+    outline: none;
+}
+
+.link:focus-visible {
+    border-bottom-color: currentColor;
+}
+
+@media (any-hover: hover) {
+    .link:hover {
+        border-bottom-color: currentColor;
+    }
+}
