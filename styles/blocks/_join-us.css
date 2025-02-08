@@ -1,0 +1,19 @@
+.join-us {
+    padding: 60px 0;
+}
+
+.join-us__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 414px;
+    margin: 0 auto;
+}
+
+.join-us__title {
+    margin-bottom: 16px;
+}
+
+.join-us__text {
+    margin-bottom: 32px;
+}
