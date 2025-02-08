@@ -1,0 +1,38 @@
+.blog-hero {
+    padding: 80px 0;
+    background-color: var(--lavender);
+}
+
+.blog-hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px
+}
+
+.blog-hero__content {
+    max-width: 625px;
+}
+
+.blog-hero__caption {
+    margin-bottom: 20px;
+}
+
+.blog-hero__title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    letter-spacing: -0.06em;
+    color: var(--black);
+}
+
+.blog-hero__meta {
+    margin-bottom: 16px;
+}
+
+.blog-hero__descr {
+    margin-bottom: 32px;
+}
