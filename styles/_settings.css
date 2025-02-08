@@ -44,7 +44,7 @@ img {
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    column-gap: 20px;
+    column-gap: 32px;
     row-gap: 40px;
 }
   
