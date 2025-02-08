@@ -1,0 +1,26 @@
+.authors {
+    padding: 60px 0;
+}
+
+.authors__title {
+    margin-bottom: 48px;
+}
+
+.authors__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 3 span;
+    padding: 40px 28px;
+    background-color: var(--light-grey);
+}
+
+.authors__image {
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.authors__position {
+    display: block;
+    margin-bottom: 20px;
+}
