@@ -1,0 +1,12 @@
+.caption {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.caption--purple {
+    color: var(--purple);
+}
