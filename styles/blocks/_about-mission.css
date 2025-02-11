@@ -1,0 +1,26 @@
+.about-mission {
+    padding: 60px 0;
+}
+
+.about-mission__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.about-mission__row:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.about-mission__row:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.about-mission__subtitle {
+    margin-bottom: 16px;
+}
+
+.about-mission__descr:not(:last-child) {
+    margin-bottom: 16px;
+}
